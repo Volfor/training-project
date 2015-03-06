@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="press_button">TEXT FOR 2nd ACTIVITY</string>
+    <string name="press_second_button">TEXT FOR 1st ACTIVITY</string>
+    <string name="text_from_first_activity">Text from first activity:</string>
+    <string name="text_from_second_activity">Text from second activity:</string>
+    <string name="third_button">Fragments</string>
+    <string name="title_activity_third">ThirdActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="fragment_one_text">I am fragment one</string>
+    <string name="fragment_two_text">I am fragment two</string>
+    <string name="fragment_three_text">I am fragment three</string>
+    <string name="frag_input_title">Input text for fragments:</string>
+    <string name="fragtext_one">1.</string>
+    <string name="set">Set</string>
+    <string name="input_one">1.</string>
+    <string name="input_two">2.</string>
+    <string name="input_three">3.</string>
+</resources>
