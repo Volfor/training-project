@@ -122,7 +122,11 @@ public class MainActivity extends Activity implements View.OnTouchListener, Spri
 
     public void onServiceButtonClick(View view) {
         Intent intent = new Intent(this, ServiceActivity.class);
-        //Intent intent = new Intent(this, DownloadActivity.class);
+        startActivity(intent);
+    }
+
+    public void onDontPressButtonClick(View view) {
+        Intent intent = new Intent(this, FourthActivity.class);
         startActivity(intent);
     }
 }

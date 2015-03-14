@@ -100,4 +100,14 @@ public class SecondActivity extends Activity implements View.OnTouchListener, Sp
         Intent intent = new Intent(this, ThirdActivity.class);
         startActivity(intent);
     }
+
+    public void onServiceButtonClick(View view) {
+        Intent intent = new Intent(this, ServiceActivity.class);
+        startActivity(intent);
+    }
+
+    public void onDontPressButtonClick(View view) {
+        Intent intent = new Intent(this, FourthActivity.class);
+        startActivity(intent);
+    }
 }

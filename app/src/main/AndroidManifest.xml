@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.natsu.myapplication" >
+
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -35,6 +36,10 @@
             android:name=".services.MyService"
             android:enabled="true" />
 
+        <activity
+            android:name=".activities.FourthActivity"
+            android:label="@string/title_activity_view_test" >
+        </activity>
     </application>
 
 </manifest>

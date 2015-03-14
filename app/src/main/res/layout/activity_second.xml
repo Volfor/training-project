@@ -63,10 +63,37 @@
         android:text="@string/third_button"
         android:id="@+id/button4"
         android:minHeight="10dp"
+        android:width="101dp"
         android:textSize="13sp"
         android:onClick="onFragButtonClick"
         android:layout_alignParentTop="true"
         android:layout_alignRight="@+id/editText2"
         android:layout_alignEnd="@+id/editText2" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/service_button"
+        android:id="@+id/button9"
+        android:minHeight="10dp"
+        android:width="101dp"
+        android:textSize="13sp"
+        android:onClick="onServiceButtonClick"
+        android:layout_alignTop="@+id/button4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dont_press_button"
+        android:id="@+id/button10"
+        android:minHeight="10dp"
+        android:textSize="13sp"
+        android:onClick="onDontPressButtonClick"
+        android:layout_alignTop="@+id/button4"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

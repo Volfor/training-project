@@ -27,4 +27,8 @@
     <string name="stop_service">Stop service</string>
     <string name="title_activity_download">DownloadActivity</string>
     <string name="content_description">download file</string>
+    <string name="title_activity_view_test">ViewTestActivity</string>
+    <string name="create_view_button">CREATE</string>
+    <string name="image_view">image view</string>
+    <string name="dont_press_button">DONT PRESS ME</string>
 </resources>
