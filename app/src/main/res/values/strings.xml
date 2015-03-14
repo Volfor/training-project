@@ -21,4 +21,10 @@
     <string name="input_one">1.</string>
     <string name="input_two">2.</string>
     <string name="input_three">3.</string>
+    <string name="service_button">Service</string>
+    <string name="title_activity_service">ServiceActivity</string>
+    <string name="start_service">Start service</string>
+    <string name="stop_service">Stop service</string>
+    <string name="title_activity_download">DownloadActivity</string>
+    <string name="content_description">download file</string>
 </resources>
