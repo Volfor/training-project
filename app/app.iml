@@ -32,6 +32,7 @@
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/flavor1/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/flavor1/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/flavor1/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/flavor1/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/flavor1/debug" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/res/generated/flavor1/debug" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/flavor1Debug/res" type="java-resource" />
@@ -108,10 +109,15 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="appcompat-v7-21.0.3" level="project" />
     <orderEntry type="library" exported="" name="androidasync-2.1.1" level="project" />
+    <orderEntry type="library" exported="" name="dagger-2.0-SNAPSHOT" level="project" />
     <orderEntry type="library" exported="" name="rebound-0.3.7" level="project" />
     <orderEntry type="library" exported="" name="ion-2.1.1" level="project" />
+    <orderEntry type="library" exported="" name="butterknife-6.1.0" level="project" />
+    <orderEntry type="library" exported="" name="lombok-1.16.2" level="project" />
     <orderEntry type="library" exported="" name="support-v4-21.0.3" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-21.0.3" level="project" />
+    <orderEntry type="library" exported="" name="otto-1.3.6" level="project" />
+    <orderEntry type="library" exported="" name="javax.inject-1" level="project" />
   </component>
 </module>
 
